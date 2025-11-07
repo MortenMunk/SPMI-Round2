@@ -87,7 +87,7 @@
           columns: 4,
           align: horizon,
           inset: 6pt,
-          [     ], [*X*], [*Y*], [*Z*],
+          [   ], [*X*], [*Y*], [*Z*],
           [*X*], [$X->X$], [$X->Y$], [$X->Z$],
           [*Y*], [$Y->X$], [$Y->Y$], [$Y->Z$],
           [*Z*], [$Z->X$], [$Z->Y$], [$Z->Z$],
@@ -98,3 +98,33 @@
   ],
 )
 
+---
+
+
+#grid(
+  columns: 2,
+  column-gutter: 6em,
+  [
+    *Why is $O(N^2)$ Ineffecient?*
+
+    Many attention heads
+    - Each head has its own matrix
+
+    Many forward passes
+    - Each matrix recomputed at each pass
+
+    Causal LM as an example
+    - $12 "layers" times 12 "heads" = 144 "attention heads"$
+
+
+    *Ciphers with 1000s of characters does not scale well #emoji.face.cry*
+  ],
+  [
+    #align(center)[
+      #figure(
+        image("/img/att.png", width: 80%),
+        caption: [Example of attention with multiple heads. (Yuan et al., 2022)],
+      )
+    ]
+  ],
+)

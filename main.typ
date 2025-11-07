@@ -4,17 +4,18 @@
   aspect-ratio: "16-9",
   footer: self => self.info.institution,
   config-info(
-    title: [LMs in Cryptanalysis],
+    title: [Language Models in Cryptanalysis],
     subtitle: [How do we crack the long ciphers?],
     author: [Morten Munk],
-    date: [May 2023],
-    institution: [Findings of the Association for Computational Linguistics: EACL 2023],
+    date: [November 2025],
+    institution: [AAU CPH - SW9],
   ),
 )
 #set heading(numbering: numbly("{1}.", default: "1.1"))
-
+#title-slide()
 // Table of contents
 #include "sections/toc.typ"
+#include "sections/agenda.typ"
 #include "sections/intro.typ"
 
 = Questions?
