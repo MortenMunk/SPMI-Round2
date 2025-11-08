@@ -1,8 +1,10 @@
 #import "/globals.typ": *
 
-= Recap from last time
+= Background
 
 ---
+
+== Recap from last time
 
 #grid(
   rows: 2,
@@ -52,9 +54,8 @@
 
 ---
 
-= Standard Attention Computation
+== Standard Attention Computation
 
----
 
 #grid(
   columns: 2,

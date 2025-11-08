@@ -19,7 +19,7 @@
     Zhu, et al., 2021
 
     *Rethinking Attention with Performers*\
-    Choromanski, et al., 2020
+    Choromanski, et al., 2021
 
     *Linformer: Self-Attention with Linear Complexity*\
     Wang, et al., 2020

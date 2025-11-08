@@ -17,5 +17,6 @@
 #include "sections/toc.typ"
 #include "sections/agenda.typ"
 #include "sections/intro.typ"
+#include "sections/linformer.typ"
 
 = Questions?
