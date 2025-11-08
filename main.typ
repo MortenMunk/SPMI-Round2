@@ -20,5 +20,8 @@
 #include "sections/linformer.typ"
 #include "sections/performer.typ"
 #include "sections/rnn.typ"
+#include "sections/ls.typ"
+#include "sections/x.typ"
 
 = Questions?
+Please no math questions #emoji.face.down
