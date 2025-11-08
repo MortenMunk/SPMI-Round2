@@ -18,5 +18,7 @@
 #include "sections/agenda.typ"
 #include "sections/intro.typ"
 #include "sections/linformer.typ"
+#include "sections/performer.typ"
+#include "sections/rnn.typ"
 
 = Questions?
