@@ -14,8 +14,8 @@ Also it has no illustrations, so instead you get math #emoji.face.party
 ---
 
 *Generalized Attention $O(N^2)$*
-- Calculates output of a query by weighted average of all $V$ vectors
-- Similarity between $Q$ and $K$ determines weight
+- Output is weighted matrix determined by similiarity function
+- Sim() could be softmax or cosine similiarity, etc.
 $V_i^'=(sum_(j=1)^N "sim"(Q_i,K_j,)V_j)/(sum_(j=1)^N "sim"(Q_i, K_j))$
 
 *Linear Attention O(N)*
@@ -25,7 +25,7 @@ $V_i^'=(phi(Q_i)^T sum_(j=1)^N phi(K_j) V_j^T)/(phi(Q_i)^T sum_(j=1)^N phi(K_j))
 
 Calculate $M_2$ which is independent of Att matrix size, then multiply with $M_1$
 
-$N(O(N)) ->$ linear!
+Softmax is non-factorizable! - replace with positive factorizable ELU allows reordering #emoji.checkmark
 
 ---
 

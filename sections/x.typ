@@ -32,3 +32,19 @@
   - Global
   - Local
   - Evenly?
+
+= Summary
+
+---
+
+Linformer
+- Low-rank projection
+
+Performer
+- Random feature approximation
+
+Reordered
+- Associativity method
+
+Long Short
+- Dual attention
